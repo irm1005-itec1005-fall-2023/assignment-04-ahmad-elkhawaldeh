@@ -6,14 +6,28 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #fff8ec;
+  background: linear-gradient(to bottom, #3498db, #fff8ec);
+}
+
+.splash-container {
+  text-align: center;
+}
+
+.splash-container h1 {
+  color: #333;
+}
+
+.splash-container p {
+  color: #777;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .app-container {
-  background-color: #8cd4ea;
+  background-color: #35BDEF;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(76, 205, 20, 0.2);
-  width: 500px; /* Increased width for more content space */
+  width: 500px; 
   padding: 20px;
   text-align: center;
 }
@@ -40,7 +54,7 @@ input {
 
 button {
   padding: 10px;
-  background-color: #0da5d7;
+  background-color: #3498db;
   color: white;
   border: none;
   cursor: pointer;
@@ -62,8 +76,8 @@ button:hover {
 
 #daysOfWeek button {
   padding: 15px;
-  width: 60px; /* Increased width for more space */
-  height: 60px; /* Increased height for more space */
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background-color: #3498db;
   color: white;
@@ -161,4 +175,12 @@ li:hover {
 .delete-button:hover {
   background-color: #c0392b;
 }
+
+/* Add this style to your CSS */
+#logo {
+  width: 80px; /* Adjust the width according to your design */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 10px; /* Add some spacing between the logo and other content */
+}
+
 
