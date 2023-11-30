@@ -15,21 +15,28 @@
 
   <!-- Set the main stylesheet -->
   <link rel="stylesheet" href="./style.css" />
+
+  <!-- Add a link to your logo image -->
+  <link rel="icon" type="image/png" href="path/to/your/logo.png">
 </head>
 <body>
   <div class="app-container">
+    <!-- Add an img element for your logo -->
+    <img src="path/to/your/logo.png" alt="Logo" id="logo">
+
     <h1>Todo App</h1>
     <div id="daysOfWeek"></div>
     <div id="selectedDayDisplay"></div> <!-- Added selectedDayDisplay element -->
     <div class="input-container">
-      <input type="text" id="todoInput" placeholder="Add a new task...">
+      <input type="text" id="todoInput" placeholder="Select a date and add a new task...">
       <button onclick="addToDo()">Add</button>
     </div>
     <ul id="todoList"></ul>
-    <button onclick="clearCompletedTasks()">Clear all</button>
+    <button onclick="clearCompletedTasks()">Clear selected todos</button>
   </div>
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
